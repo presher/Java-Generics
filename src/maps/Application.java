@@ -1,4 +1,4 @@
-package Lecture29_maps;
+package maps;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
