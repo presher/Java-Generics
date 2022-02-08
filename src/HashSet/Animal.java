@@ -1,4 +1,4 @@
-package Lesson3;
+package HashSet;
 
 public class Animal {
 	String name;
