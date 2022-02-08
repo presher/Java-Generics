@@ -1,4 +1,4 @@
-package lesson2;
+package ArrayList;
 
 public class Vehicle {
 	String make;
