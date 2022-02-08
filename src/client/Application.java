@@ -16,6 +16,13 @@ public class Application {
 		
 		Container<Double, Integer, Float> container2 = new Container<>(12.9, 23, 78f);
 		
+		ArrayList<String> myList = new ArrayList<>(); //String is specified data type
+		myList.add("hello");
+//		myList.add(100); //Not a valid type now
+//		myList.add(false);//Not a valid type now
+		
+		String myval = (String) myList.get(0);
+		
 		Set<String> myset1 = new HashSet<String>();
 		myset1.add("First");
 		myset1.add("Second");
