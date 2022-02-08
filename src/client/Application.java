@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class GenericsApplication {
+public class Application {
 	//in Generics certain letters are used HashMap<k = key, V = value>, in Arrays<E = element>, <T = types>, best practice is to use single capital letters
 	public static void main(String[] args) {
 		Container<Integer, String, Boolean> container = new Container<>(12, "Hello", true);
