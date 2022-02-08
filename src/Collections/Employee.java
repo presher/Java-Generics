@@ -1,4 +1,4 @@
-package lesson4;
+package Collections;
 
 public class Employee implements Comparable<Employee> {
 	String name;
